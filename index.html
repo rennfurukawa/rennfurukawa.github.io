@@ -11,14 +11,37 @@
         width: 50%;
         margin: 0 auto;
         text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                justify-content: center;
+                align-items: center;
+                font-size: xx-small;
+                text-align: center;
+            }
+            .ps {
+                font-size: x-small;
+                text-size-adjust: 10px;
+                text-align: start;
+                word-wrap: break-word;
+            }
+            #bilek{
+                display: block;
+                margin: 0 auto;
+                width: 22em;
+                justify-content: center;
+                align-items: center;
+            } 
     }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Bentar masih belum kelar webnya 😁</h1>
-        <img src="bilek.jpg" alt="" width="600" >
+        <img src="bilek.jpg" alt="" width="600" id="bilek">
     </div>
-    <h3>ps : $ echo NjI2OTZlNjc3NTZlNjcyMDYyNjE2ZTY3MjA2OTZlNjkyMDc3NjU2MjIwNmI2RjZFNzM2NTcwNmU3OTYxMjA2ZDYxNzUyMDY3Njk2ZDYxNmU2MQ== | base64 -d | xxd -r -p</h3>
+    <div class="ps">
+        <h3>ps : $ echo NjI2OTZlNjc3NTZlNjcyMDYyNjE2ZTY3MjA2OTZlNjkyMDc3NjU2MjIwNmI2RjZFNzM2NTcwNmU3OTYxMjA2ZDYxNzUyMDY3Njk2ZDYxNmU2MQ== | base64 -d | xxd -r -p</h3>
+    </div>    
 </body>
 </html> 
