@@ -24,7 +24,7 @@ text-align: center;
 }
 @media screen and (max-width: 768px) {
     .container {
-        width: 80%; /* Mengurangi lebar kontainer pada layar kecil */
+        width: 80%; 
         margin: 0 auto;
         text-align: center;
     }
@@ -35,7 +35,7 @@ text-align: center;
         margin-right: 18px;
         align-items: center;
         justify-content: center;
-        width: 20em;
+        width: 21em;
     }
 
     .ps {
