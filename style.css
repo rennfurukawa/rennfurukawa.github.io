@@ -22,6 +22,25 @@ width: 50%;
 margin: 0 auto;
 text-align: center;
 }
+#desc1 {
+    width: 18ch;
+    animation: typing 2s steps(33), blink .3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+        
+    @keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         width: 80%; 
@@ -48,5 +67,9 @@ text-align: center;
         bottom: 0;
         margin-bottom: 12px;
         right: 30%;
+    }
+    #desc1 {
+        width: 18ch;
+        /* display: flex; */
     }
 }
