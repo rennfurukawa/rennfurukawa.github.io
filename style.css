@@ -23,11 +23,11 @@ margin: 0 auto;
 text-align: center;
 }
 #desc1 {
-    width: 18ch;
+    width: 24ch;
     animation: typing 2s steps(33), blink .3s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid;
+    /* border-right: 3px solid; */
 }
 @keyframes typing {
     from {
@@ -69,7 +69,6 @@ text-align: center;
         right: 30%;
     }
     #desc1 {
-        width: 18ch;
-        /* display: flex; */
+        width: 24ch;
     }
 }
